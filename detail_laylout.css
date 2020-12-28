@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+/* visual bg 이미지 변경 , bg 사이 간격 */
+/* .bgMain {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/StarhomeBgImg.jpg?20181213184637');}
+.bgProfile {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ProfileBgImg.jpg?20181213184637');}
+.bgDiscography {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/DiscographyBgImg.jpg?20181213184637');}
+.bgPortfolio {background-color:#000000; }
+.bgVideos {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/VideosBgImg.jpg?20181213184637');}
+.bgGallery {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/GalleryBgImg.jpg?20181213184637');}
+.bgExtras {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ExtrasBgImg.jpg?20181213184637');}
+.bgMobile {background-color:#000000; }
+.bgNotice {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/NoticeBgImg.jpg?20181213184637');}
+.bgSchedule {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ScheduleBgImg.jpg?20181213184637');}
+.bgFanBoard {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/FanBoardBgImg.jpg?20181213184637');}
+.bgFromStar {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/FromStarBgImg.jpg?20181213184637');}
+.bgStaffDiary {background-color:#000000; background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/StaffDiaryBgImg.jpg?20181213184637');} */
+
+.MainSpace {height:1091px;}
+.ProfileSpace {height:978px;}
+.PortfolioSpace {}
+.DiscographySpace {height:978px;}
+.VideosSpace {height:978px;}
+.GallerySpace {height:978px;}
+.ExtrasSpace {height:978px;}
+.MobileSpace {}
+.NoticeSpace {height:978px;}
+.ScheduleSpace {height:978px;}
+.FanBoardSpace {height:978px;}
+.StaffDiarySpace {height:978px;}
+.FromStarSpace {height:978px;}
+
+.artCol1{color:#000000;}
+.artBg1{[[TitleBgColor]]}
+.tb_th1{background-color:#FFFFFF; color:#000000;}
+.table1, .boardList {border-top-color:#CCCCCC; border-bottom-color:#CCCCCC;}
+
+.schdule_bg{border-color:#FFFFFF;}
+
+
+
+#wrap #header{ background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/MenuBarImg.png?20181213184637');}
+#header #gnb{}
+#header #gnb li a,
+#header h1 a,
+#header #tUtil li a{ background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/MenuImg.png?20181213184637');}
+
+#header #gnb li a.Profile {width:79px; background-position:-115px 0px;}
+#header #gnb li a.Discography {width:122px; background-position:-194px 0px;}
+#header #gnb li a.Portfolio {width:100px; background-position:-316px 0px;}
+#header #gnb li a.Videos {width:72px; background-position:-416px 0px;}
+#header #gnb li a.Gallery {width:83px; background-position:-488px 0px;}
+#header #gnb li a.Extras {width:67px; background-position:-571px 0px;}
+#header #gnb li a.Mobile {width:73px; background-position:-638px 0px;}
+
+#header #gnb li a.Profile_hover {width:79px; background-position:-115px 0px;}
+#header #gnb li a.Discography_hover {width:122px; background-position:-194px 0px;}
+#header #gnb li a.Portfolio_hover {width:100px; background-position:-316px 0px;}
+#header #gnb li a.Videos_hover {width:72px; background-position:-416px 0px;}
+#header #gnb li a.Gallery_hover {width:83px; background-position:-488px 0px;}
+#header #gnb li a.Extras_hover {width:67px; background-position:-571px 0px;}
+#header #gnb li a.Mobile_hover {width:73px; background-position:-638px 0px;} 
+
+#header #tUtil li a.Notice {width:35px; background-position:-711px 0px;}
+#header #tUtil li a.Schedule {width:58px; background-position:-746px 0px;}
+#header #tUtil li a.FanBoard {width:60px; background-position:-804px 0px;}
+#header #tUtil li a.FromStar {width:63px; background-position:-864px 0px;}
+#header #tUtil li a.StaffDiary {width:72px; background-position:-927px 0px;}		
+
+.bgMain #wrap #contents .con_round_top, .bgMain #wrap #contents .con_round_bottom, .bgMain #wrap #contents #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/StarhomeContentsBgImg.png?20181213184637');}
+.bgMain #wrap #contents .con_round_top, .bgMain #wrap #contents .con_round_bottom, .bgMain #wrap #contents #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/StarhomeContentsBgImg.png?20181213184637');}
+.bgProfile #wrap #subCon .con_round_top, .bgProfile #wrap #subCon .con_round_bottom,  .bgProfile #wrap #subCon #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ProfileContentsBgImg.png?20181213184637');}
+.bgDiscography #wrap #subCon .con_round_top, .bgDiscography #wrap #subCon .con_round_bottom,  .bgDiscography #wrap #subCon #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/DiscographyContentsBgImg.png?20181213184637');}
+.bgPortfolio #wrap #subCon .con_round_top, .bgPortfolio #wrap #subCon .con_round_bottom,  .bgPortfolio #wrap #subCon #con_inner {}
+.bgVideos #wrap #subCon .con_round_top, .bgVideos #wrap #subCon .con_round_bottom,  .bgVideos #wrap #subCon #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/VideosContentsBgImg.png?20181213184637');}
+.bgGallery #wrap #subCon .con_round_top, .bgGallery #wrap #subCon .con_round_bottom,  .bgGallery #wrap #subCon #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/GalleryContentsBgImg.png?20181213184637');}
+.bgExtras #wrap #subCon .con_round_top, .bgExtras #wrap #subCon .con_round_bottom,  .bgExtras #wrap #subCon #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ExtrasContentsBgImg.png?20181213184637');}
+.bgMobile #wrap #subCon .con_round_top, .bgMobile #wrap #subCon .con_round_bottom,  .bgMobile #wrap #subCon #con_inner {}
+.bgNotice #wrap #subCon .con_round_top, .bgNotice #wrap #subCon .con_round_bottom,  .bgNotice #wrap #subCon #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/NoticeContentsBgImg.png?20181213184637');}
+.bgSchedule #wrap #subCon2 .con_round_top, .bgSchedule #wrap #subCon2 .con_round_bottom, .bgSchedule #wrap #subCon2 #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ScheduleContentsBgImg.png?20181213184637');}
+.bgFanBoard #wrap #subCon .con_round_top, .bgFanBoard #wrap #subCon .con_round_bottom,  .bgFanBoard #wrap #subCon #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/FanBoardContentsBgImg.png?20181213184637');}
+.bgStaffDiary #wrap #subCon .con_round_top, .bgStaffDiary #wrap #subCon .con_round_bottom,  .bgStaffDiary #wrap #subCon #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/StaffDiaryContentsBgImg.png?20181213184637');}
+.bgFromStar #wrap #subCon .con_round_top, .bgFromStar #wrap #subCon .con_round_bottom,  .bgFromStar #wrap #subCon #con_inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/FromStarContentsBgImg.png?20181213184637');}
+
+/* #abView, #abView #inner {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ProfileLayerBgImg.png?20181213184637');} */
+/*---------------------------------------common img ---------------------------------*/
+#header #tUtil,  
+.paging a.prev, 
+.paging a.next, 
+.schedule tbody td .schWrap .today .todayIcon, 
+#footBan ul.footMenu li, 
+#footBan ul.footMenu li a, 
+#footBan .preVer strong, 
+#footCopy li,
+#footCopy li a,
+.lst_mv ul li .pic .btnPlay, 
+.lst_mv .info .num, 
+.n_album .nAb_con .info .num, 
+#news li .txt .dot,		
+#ufoTown li, 
+.schLf .prev, 
+.schLf .next, 
+#newAlbum .txt .num, 
+#latestMV ul li .pic .btnPlay, 
+#latestMV .info .num, 
+.commentBox .cnt_write p.tit, 
+.cnt_write .tit,
+.mvList li .btnPlay, 
+.schd_top .ct .prev, 
+.schd_top .ct .next, 
+#boardV_util1 .bv_ut1 .cnt,
+#ltMv .mvBox .prev, 
+#ltMv .mvBox .next, 
+#ltMv .mvBox li .btnPlay,
+.pfCon .info li .dot,
+.pfBoard li .dot,
+.dimClose,
+.mvdata ul li .twitter,
+.mvdata ul li .facebook ,
+.more,
+.table1 tbody td .abInfo_off,
+.table1 tbody td .abInfo_on,
+.table1 tbody td .ico_lyrics_on,
+.table1 tbody td .ico_lyrics_off,
+.table1 tbody td .ico_movicvideo_on,
+.table1 tbody td .ico_movicvideo_off,
+.table1 tbody td .ico_ar_on,
+.table1 tbody td .ico_ar_off,
+.table1 tbody td .ico_mr_on,
+.table1 tbody td .ico_mr_off,
+.table1 tbody td .ico_ituns_on,
+.table1 tbody td .ico_ituns_off,
+.ico_down_mr,
+.ico_down_ar,
+.slideList .prev,
+.slideList .next,
+.specList dd li,
+#abView .profile li,
+#ScheduleCalendar .schLayer .inner .schl_close,
+#ScheduleCalendar .schLayer
+/* {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/CommonImg.png?20181213184637');} */
+
+/*---------------------------------------board img-----------------------------------*/
+.paging a, .paging a span, .paging strong, .paging strong span, 
+.boardList td.story p .icoNew, 
+.boardList .tr_notice td .icoSpan, 
+.boardList td.story p .icoFile, 
+#boardV_tle h3 .icoNew, 
+#boardV_tle h3 .icoNews, 
+
+#boardV_con .dataFile span, 
+#boardV_util2 .ut_tag .icoTag,
+#boardV_util2 .ut_click .clk_recmd .clk_icon ,  
+#boardV_util2 .ut_click .clk_report .clk_icon, 
+#boardV_btm ul li, 
+.icoRec , 
+.icoDel , 
+.icoNotify , 
+.btnReply , 
+.icoReply,
+.btnBoardGroup,
+.boardList td.story .icoReply,
+.rep_list .div_reply .icoReply
+/* {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/BoardImg.png?20181213184637');} */
+
+/*---------------------------------------title img ---------------------------------*/
+.lst_mv h3, 
+.lst_photo h3, 
+.n_album h3, 
+#news h2,
+#ufoTown h2,
+#smtownNow h2,
+#toSchdule h2, 
+#newAlbum h2, 
+#latestMV h2, 
+#starTwr h2, 
+.h2_profile, 
+.h2_nRelease,
+.h2_video, 
+.h2_gallery, 
+.h2_extras, 
+.h2_mobile, 
+.h2_notice, 
+.h2_schedule, 
+.h2_fanboard, 
+.h2_fromstar, 
+.h2_staffdiary, 
+.h3_gpMember, 
+.h3_abIntro, 
+.h3_trInfo, 
+.h3_news, 
+.pf_awards h3, 	
+.pf_career h3, 
+.galleryTop labe,
+#abView h4,
+#ltMv h2,
+#sch_board #newWork h2,
+.n_work h3
+/* {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/TitleImg.png?20181213184637');} */
+
+/*---------------------------------------button img ---------------------------------*/
+/* .btnButtonGroup {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ButtonImg.png?20181213184637');}
+.subtitle .tab .tabKorea, .tabFilm, .tabDrama, .tabCF, .tabMagazine, .tabTvShow, .tabDVD, .tabETC   {background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ButtonImg.png?20181213184637');}
+
+#ScheduleCalendar .schLayer strong,
+#ScheduleCalendar .schLayer .inner{background-image:url('//socdn.smtown.com/upload/starhome/layout/shinee/ver16/ScheduleLayerImg.png?20181213184637');} */
+
+   
