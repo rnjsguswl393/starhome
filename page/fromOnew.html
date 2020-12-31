@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $.getJSON('../onlist.json', function(data){
+        var html = [];
+        html.push('<table cellspacing="0" class="boardList" summary="List">'
++'<colgroup>'
+        +'<col width="70px">'
+        +'<col width="*">'
+        +'<col width="130px">'
+        +'<col width="90px">'
+        // +'<col width="60px">'
+    +'</colgroup>'
+    +'<thead>'
+        +'<tr>'
+            +'<th class="tb_th1">번호</th>'
+            +'<th class="tb_th1">제목</th>'
+            +'<th class="tb_th1">이름</th>'
+            +'<th class="tb_th1">날짜</th>'
+            // +'<th class="tb_th1">조회수</th>'
+        +'</tr>'
+    +'</thead><tbody>');
+        $.each(data, function(i, item){
+        //   console.log(item.length);
+          
+          for(var num = 0; num < item.length; num++){
+            
+            // html.push('<div style="margin: 1em 1em 1em 1em;">');
+            html.push('<tr> <td> '+item[num].no+'</td>');
+            html.push('<td class="story"> <a href="../ondetail/'+item[num].no+'.html"  target="_blank" class="boardDetails">'+item[num].title+'</a></td>');
+            html.push('<td><strong> '+item[num].name+'</strong></td>');
+            html.push('<td class="ft11">  '+item[num].date+'</td>');
+            // ${data.name}
+            // html.push('<div> 작성자 : <a href="'+item[num].name+'" target="_blank">'+item.users[num].blog+'</a></div>');
+            // html.push('</div>');
+          }
+          html.push('</tbody></table>');
+        });
+        $('#wrap').html(html.join(''));
+      });
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="../home_style.css">
+  <!-- <html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <script async="" src="//www.google-analytics.com/analytics.js"></script> -->
+</head>
+<body>
+    <!-- <h2>JSON데이터</h2> -->
+    <div id="wrap">
+    </div>
+    
+  </body>
+  </html>
